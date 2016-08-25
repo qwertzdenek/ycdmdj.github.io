@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Generátor hudby, část druhá"
+date:   2016-08-26 13:02:48 +0200
+categories: update
+---
+
 V předchozí kapitole jsem představil základní myšlenky generátoru 
 hudby. V této části připomenu jak fungují <em>Omezené boltzmannovy 
 stroje</em> (angl. Restricted Boltzmann Machines, RBM). Jedná se o 

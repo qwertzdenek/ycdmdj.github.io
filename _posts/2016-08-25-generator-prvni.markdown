@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Generátor hudby, část první"
+date:   2016-08-25 13:02:48 +0200
+categories: update
+---
+
 V prvním dílu tohoto seriálu bych rád představil svojí *diplomovou 
 práci*. Zaměřil jsem se na generování hudby, která slouží jako 
 podkres do výtahů, odchodů nebo hotelů. Tato hudba se vyznačuje tím, že 
