@@ -1,15 +1,14 @@
 ---
 layout: page
-title: About
+title: O mě
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Jsem nadšený programátor a muzikant z Plzně. Zajímám se o moderní technologie
+a to hlavně o ty, které učí stroje kreativně myslet. Věřím, že když
+naučíme počítače více o našem světě, tak jenom získáme. O tom se můžeme
+přesvědčit již nyní třeba na vyhledávači.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Již deset let preferuji operační systém GNU/Linux, protože mi poskytuje
+potřebnou volnost při práci. Mým motem se tak po několika letech s ArchLinux
+stalo &bdquo;Keep it simple, keep it small&ldquo;.
