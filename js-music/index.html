@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<h1>Ambient generator</h1>
+	
+	<input type="button" onclick="audioPlayer.start()" value="Start">
+	<input type="button" onclick="audioPlayer.stop()" value="Stop">
+
+	<ul id="stats" style="list-style-type: none;"></ul>
+	
+	<p id="statusBar"></p>
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/buffer-loader.js"></script>
+	<script src="js/player.js"></script>
+	<script src="js/init.js"></script>
+</body>
+</html>
