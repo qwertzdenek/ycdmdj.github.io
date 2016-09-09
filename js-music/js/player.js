@@ -38,7 +38,7 @@ audioPlayer.start = function() {
 	if (this.playing) {
 		return;
 	}
-	
+
 	for (var sample in this.samples) {
 		var source = audioContext.createBufferSource();
 		source.buffer = this.buffers[sample];
@@ -55,10 +55,10 @@ audioPlayer.start = function() {
 		source.start(0);
 		this.sources[sample] = source;
 	}
-	
+
 	this.playing = true;
 	this.mixInterval = window.setInterval("audioPlayer.mix()", 1000);
-	
+
 	$("#statusBar").text("started");
 }
 
@@ -67,14 +67,14 @@ audioPlayer.stop = function() {
 	if (!this.playing) {
 		return;
 	}
-	
+
 	for (var sample in this.samples) {
 		this.sources[sample].stop(0);
 	}
-	
+
 	this.playing = false;
 	window.clearInterval(this.mixInterval);
-	
+
 	$("#statusBar").text("stopped");
 }
 
@@ -83,7 +83,7 @@ audioPlayer.mix = function() {
 	if (!this.playing) {
 		return;
 	}
-	
+
 	// get target from gains distribution
 	var target = this.sample(this.gainProb)
 
@@ -131,6 +131,8 @@ audioPlayer.init = function() {
 		  var name = names[i];
 		  audioPlayer.buffers[name] = buffer;
 		}
+
+		$("#statusBar").text("sounds loaded");
 	});
 	bufferLoader.load();
 }
